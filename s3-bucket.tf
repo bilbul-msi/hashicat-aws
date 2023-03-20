@@ -4,6 +4,7 @@ module "s3_bucket" {
   bucket = "my-s3-bucket"
   bucket_prefix = "testing-tf"
   acl    = "private"
+  version = "2.8.0"
 
   versioning = {
     enabled = true
